@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+:root {
+    --text-align: center;
+    --primary-color: #129292;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+    body {
+    background-color: rgb(182, 248, 226);
+    margin: 60px auto;
+    max-width: 800px;
+    }
+
+    h2 {
+    text-align: var(--text-align);
+    font-size: 50px;
+    }
+    h1 {
+    text-align: var(--text-align); 
+    font-size: 75px;
+    }
+    h3 {
+    text-align: var(--text-align); 
+    font-size: 25px;
+    opacity: 0.7;
+    }
+
+    .button {
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+    .button, a {
+        margin: 20px;
+        border-radius: 4px;
+        padding: 20px 15px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    .about {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    }
+
+    .contact {
+        color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+    }
+
+
+</style>
+
+<body>
+
+    <h2>Hi🖐 I am</h2>
+    <h1>Tanya Synytska</h1>
+    <h3>Student SheCodes Front-end developer</h3>
+    <div class="button">
+        <a href="about.html" class="about">About me</a>
+        <a href="about.html#contact" class="contact">Contact me</a>
+    </div>
+    
+</body>
+</html>
