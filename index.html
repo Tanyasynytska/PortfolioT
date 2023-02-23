@@ -30,7 +30,7 @@
 }
 
     body {
-    background-color: rgb(182, 248, 226);
+    background-color: rgb(201, 250, 234);
     max-width: 100%;
     }
 
@@ -109,6 +109,16 @@
     margin-bottom: 25px;
 }
 
+@media (max-width: 900px) {
+    h2 {
+        font-size: 44px;
+    }
+    .primary-link {
+        font-size: smaller;
+    }
+}
+
+
 
 </style>
 
@@ -136,11 +146,11 @@
         <a href="about.html#contact-link" class="contact">Contact me</a>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 border">
-                <img src="images/macarons.png" class="img-fluid" />
+        <div class="row mb-5">
+            <div class="col d-none d-lg-block">
+                <img src="images/macarons.png" alt="Macarons" class="img-fluid rounded d-none d-sm-block" />
             </div>
-            <div class="col-md-6">
+            <div class="col">
                 <h2>
                     Macarons
                 </h2>
@@ -154,8 +164,8 @@
         </div>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row mb-5">
+            <div class="col">
                 <h2>
                     Weather
                 </h2>
@@ -166,8 +176,8 @@
                     <a href="https://weathertanyasynytska.netlify.app" class="primary-link">Launch Weather App</a>
                 </div>
             </div>
-            <div class="col-md-6 border">
-                <img src="images/weather.png" class="img-fluid" />
+            <div class="col d-none d-lg-block">
+                <img src="images/weather.png" alt="weather" class="img-fluid rounded d-none d-sm-block" />
             </div>
         </div>
     </div>
