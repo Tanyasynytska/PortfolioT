@@ -8,6 +8,7 @@
 body {
     font-family: var(--default-font-family);
     margin: 20px;
+    background-color: #e4f8f7;
 }
 
 h1,
@@ -122,6 +123,9 @@ p {
 
 nav {
     padding: 20px 0;
+    background-color: var(--secondary-color);
+    padding: 15px;
+    margin-bottom: 30px;
 }
 
 nav ul {
